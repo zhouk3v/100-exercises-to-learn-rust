@@ -8,6 +8,8 @@ enum Status {
     Done,
 }
 
+impl TryFrom for Status {}
+
 #[cfg(test)]
 mod tests {
     use super::*;
